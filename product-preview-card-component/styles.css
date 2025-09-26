@@ -1,0 +1,95 @@
+html,body {
+    width:100%;
+    height:100%;
+    font-size:14px;
+    height:100vh;
+}
+
+body {
+    background-color:hsl(30, 38%, 92%);
+    font-family: 'Montserrat';
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.container {
+    display:flex;
+    background-color: white;
+    margin: 2rem 1.14rem;
+    border-radius: 2rem;
+    max-width:800px;
+    max-height:550px;
+}
+
+.productimg {
+   object-fit:cover;
+   width:55%;
+   border-radius:2rem 0 0 2rem;
+
+
+}
+
+.product-info-container{
+    padding:25px;
+    width:70%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    
+}
+
+button {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:0.5rem;
+    border-radius:0.5rem;
+    background-color:hsl(158, 36%, 37%);
+    border:none;
+    width:100%;
+    color:white;
+    font-weight:700;
+}
+
+.cartimg {
+    padding:0.5rem;
+}
+.title {
+    color:hsl(228, 12%, 48%);
+    text-transform:uppercase;
+    letter-spacing:0.5rem;
+    font-weight:500;
+}
+
+.perfumename {
+    font-family:'Fraunces';
+    line-height:1;
+    font-size:2.5rem;
+    font-weight:700;
+}
+.details {
+    color:hsl(228, 12%, 48%);
+    letter-spacing:0.1rem;
+    line-height:1.6;
+    font-weight:500;
+ 
+}
+
+.price {
+    display:flex;
+    align-items:center;
+}
+.reducedprice {
+    font-family:'Fraunces';
+    color:hsl(158, 36%, 37%);
+    font-size:2rem;
+}
+
+.actualprice {
+    text-decoration:line-through;
+    color:hsl(228, 12%, 48%);
+    padding-left:1rem;
+}
