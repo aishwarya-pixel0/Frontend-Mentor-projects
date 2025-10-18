@@ -3,13 +3,15 @@
 This is a solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). 
 
 
-### Screenshot
+# Screenshots
 
-#### Design : 
-![Original Design](desktop-design.jpg)
+## Preview of Solution : 
+![desktop-preview](https://github.com/user-attachments/assets/6d45846e-17b8-4ff1-a3cb-3a360e3d4ea9)
 
-#### My Solution
-![My Solution](<Screenshot (374).png>)
+
+## My Solution
+<img width="1920" height="874" alt="Screenshot (420)" src="https://github.com/user-attachments/assets/bd06f6c3-5bd3-415c-8d77-bf57b36eff41" />
+
 
 
 
@@ -36,3 +38,4 @@ Learnt about CSS Flexbox and Grid using the below resources :
 2. [Josh Comeu](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/)
 3. [CSS Grid](https://www.joshwcomeau.com/css/interactive-guide-to-grid/)
 4. [Grid Garden](https://cssgridgarden.com/)
+
