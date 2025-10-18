@@ -1,0 +1,157 @@
+.body {
+    display: grid;
+    place-items: center center;
+    height: 100vh;
+
+}
+
+
+.container {
+    max-width: 82.5rem;
+    display: grid;
+    gap: 1rem;
+    padding: 5rem ;
+    align-items: start;
+    font-family: "Barlow Semi Condensed";
+}
+
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: hsl(214, 17%, 92%);
+}
+
+
+.intro {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;  
+}
+.intro span {
+    margin-bottom: 0;
+}
+
+.intro p {
+    margin-top: 0;
+}
+
+
+
+.card1 {
+    background-color:hsl(263, 55%, 52%);
+    color:white;
+    border-radius:2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding:3rem;
+
+}
+
+.card1 .img {
+    border:3px solid hsl(264, 82%, 80%);
+
+}
+.card2 {
+    background-color:hsl(217, 19%, 35%);
+    color:white;
+    border-radius:2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding:3rem;
+}
+.card2 .intro p{
+    color:hsl(0, 0%, 81%);
+}
+
+.card3 {
+    background-color:hsl(0, 0%, 100%);
+    color:hsl(217, 19%, 35%);
+    border-radius:2rem;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding:3rem;
+}
+
+.card3 .intro p{
+    color:hsl(224, 10%, 45%);
+}
+
+.card4 {
+    background-color:hsl(219, 29%, 14%);
+    color:white;
+    border-radius:2rem;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding:3rem;
+}
+
+.card4 .img {
+    border:3px solid hsl(263, 55%, 52%);
+}
+
+.card5 {
+    background-color:hsl(0, 0%, 100%);
+    color:hsl(217, 19%, 35%);;
+    border-radius:2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding:3rem;
+}
+.card5 .intro p{
+    color:hsl(224, 10%, 45%);
+}
+
+.img { 
+    width: 3.25rem;
+    height: 3.25rem;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    /* border-color:hsl(264, 82%, 80%); */
+}
+/* desktop design */
+@media (min-width:51.2rem){
+    .container {
+        display:grid;
+        grid-template-columns:repeat(4,1fr);
+        grid-template-rows:auto;
+        gap:2rem;
+        max-width:1200px;
+        margin:3rem auto;
+       
+    }
+
+    .card1 {
+        background: hsl(263, 55%, 52%) url("./images/bg-pattern-quotation.svg") no-repeat top right;
+        background-size: 150px;
+        grid-column: 1 / span 2;
+        grid-row: 1;
+    }
+    .card2 {
+        grid-column: 3 / 4;
+        grid-row: 1;
+    }
+    .card3 {
+        grid-column: 1 / 2;
+        grid-row: 2;
+    }
+    .card4 {
+        grid-column: 2 / span 2;
+        grid-row: 2;
+    }
+    .card5 {
+        grid-column: 4 / 5;
+        grid-row: 1 / span 2;
+        box-shadow:0 15px 15px hsl(224, 10%, 45%);
+    }
+    .card1, .card2, .card3, .card4, .card5 {
+    padding: 2rem;
+    border-radius: 1rem;
+  }
+}
