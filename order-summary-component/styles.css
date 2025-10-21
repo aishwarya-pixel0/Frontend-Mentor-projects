@@ -24,7 +24,7 @@ body{
 .headerimg{
     width: 100%;
     overflow: hidden;
-    border-radius:18px 0 18px 0;
+    border-radius:18px  18px 0 0;
 }
 
 .headerimg img{
@@ -122,3 +122,4 @@ button:hover {
 .attribution {
     margin-top:1.7rem;
 }
+
