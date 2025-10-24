@@ -1,0 +1,161 @@
+body {
+    background-color:hsl(217, 54%, 11%);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    padding:12rem 0 12rem 0;
+    font-family:"Outfit";
+}
+
+.container {
+    background-color:hsl(216, 50%, 16%);
+    max-width: 20rem;
+    width: 100%;
+    max-height: 90.166rem;
+    border: none;
+    border-radius: 1.25rem;
+    padding:1.33rem;
+    box-shadow:20px 20px 20px 20px hsl(215, 49%, 8%);
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(178, 100%, 50%);
+    opacity: 0;
+    width:100%;
+    height:100%;
+    opacity:0;
+    transition: opacity 200ms ease;
+}
+.overlay .view-icon {
+    width:3rem;
+    height:3rem;
+}
+
+.img-wrapper:hover .overlay{
+    cursor:pointer;
+    opacity:0.8;
+}
+
+.overlay img {
+    width: 3rem;
+    height: auto;
+    display: block;
+}
+
+.img-wrapper img,
+.container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+   
+.img-wrapper {
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+    padding: 0; 
+    overflow: hidden; 
+    border-radius: 0.75rem;
+}
+
+.desc {
+    font-family:"Outfit";
+    font-size:18px;
+}
+
+.desc>p:first-child {
+    color:hsl(0, 0%, 100%);
+    font-size:25px;
+    font-weight:600;
+}
+.desc>p:first-child:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.desc>p:last-child {
+    color:hsl(215, 51%, 70%);
+    font-weight:300;
+    font-size:20px;
+}
+.token {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;          
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+
+.token .ethereum,
+.token .time {
+    width: 0.9rem;
+    height: auto;
+    display: inline-block;
+    margin-right:0.5rem;
+}
+.token .time{
+    width:1.5rem;
+}
+
+.token>p:first-child {
+    display:inline-flex;
+    align-items:center;
+    color:hsl(178, 100%, 50%);
+    font-size:20px;
+    margin: 0;
+}
+
+.token>p:last-child {
+    display:inline-flex;
+    align-items:center;
+    color:hsl(215, 51%, 70%);
+    font-size:20px;
+    margin: 0;
+}
+
+hr {
+  border: none;                        
+  height: 1px;                         
+  background: hsl(215, 32%, 27%);
+  margin: 1rem 0;                     
+}
+
+.acknowledgement {
+    display:inline-flex;
+    gap:0.5rem;
+    font-size:18px;
+    color:hsl(215, 51%, 70%);
+    
+}
+
+
+
+.acknowledgement .name {
+    color:hsl(0, 0%, 100%);
+    
+}
+.acknowledgement .name:hover {
+    color:hsl(178, 100%, 50%);
+    cursor:pointer;
+}
+
+.acknowledgement .avatar-img {
+    width:2.3rem;
+    height:2.3rem;
+    border-radius:50%;
+    border:1px solid white;
+    margin-top:0.4rem;
+    margin-right:0.4rem;
+}
+
+.attribution {
+    color:white;
+    margin-top:5rem;
+    font-size:25px;
+}
